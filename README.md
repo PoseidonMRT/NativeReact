@@ -1,7 +1,8 @@
 # NativeReact
 Android native project which contains React Native module,will show how to combine native code with React Native code.
 
-#How to compile project
+# How to compile project
+
 The react_native file in the root directory of project which contains all React Native js files,when we change files in this directory ,we must execute following commands in terminal :
 
 ```
