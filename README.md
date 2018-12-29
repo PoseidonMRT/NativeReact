@@ -1,13 +1,12 @@
 # NativeReact
 Android native project which contains React Native module,will show how to combine native code with React Native code.
 
-# How to compile project
 
-The react_native file in the root directory of project which contains all React Native js files,when we change files in this directory ,we must execute following commands in terminal :
+#How to compile project
+when we want to post apk files  ,we must execute following commands in terminal :
 
 ```
-react-native bundle --platform android --dev false --entry-file react_native/index.js --bundle-output app/src/main/assets/index.a
-ndroid.bundle --assets-dest app/src/main/res/
+react-native bundle --platform android --dev false --entry-file index.js --bundle-output app/src/main/assets/index.android.bundle --assets-dest app/src/main/res/
 ```
 this commands will help us to generate index.android.bundle in the `app/src/main/aseets` directory,then we can compile project as the native android project.
 
