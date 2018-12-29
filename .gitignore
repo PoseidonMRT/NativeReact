@@ -5,6 +5,9 @@
 /.idea/libraries
 /.idea/modules.xml
 /.idea/workspace.xml
+/.idea
+/.vscode
+/node_modules
 .DS_Store
 /build
 /captures
